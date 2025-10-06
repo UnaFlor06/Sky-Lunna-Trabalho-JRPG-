@@ -11,8 +11,6 @@ public class Hero {
     //Equipamento
     String wpnName;
     String armName;
-    int strWpn;
-    int dextWpn;
     int arm;
     
 
@@ -30,14 +28,10 @@ public class Hero {
         this.cnst = cnst;
         this.agil = agil;
         this.dext = dext;
-        this.strWpn = strWpn;
-        this.dextWpn = dextWpn;
         this.arm = arm;
         //Equações
         this.HP = 10 + this.cnst;
         this.DT = this.arm;
-        this.strWpnDam = this.str + this.strWpn;
-        this.dextWpnDam = this.dext + this.dextWpn;
     }
 
     public void heroStatus(){
