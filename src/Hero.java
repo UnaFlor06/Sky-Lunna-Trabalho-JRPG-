@@ -1,7 +1,6 @@
 public class Hero {
     //Status Básicos
     String name;
-    
 
     //Atributos
     int str;
@@ -42,6 +41,8 @@ public class Hero {
     }
 
     public void heroStatus(){
+        System.out.println("===== Status do Herói =====");
+        System.out.println("Nome: " + this.name);
         System.out.println("Dano de força total: " + this.strWpnDam);
         System.out.println("Dano de destreza total: " + this.dextWpnDam);
         System.out.println("HP: " + this.HP);

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PlayerCreator {
     public static Player makePlayer() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
 
         int totalDist;
         int maxAtributo = 10;
